@@ -1,15 +1,46 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
--->
 <html>
-    <head>
-        <title>TODO supply a title</title>
+    <head> 
+        <title>Gorillaz</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div>TODO write content</div>
+        <header class="hIndex">
+            <img id="logo" align="left"  src="images/logoNombre.jpg" alt="" width="100" height="100"/>
+            <p></p> 
+            <nav>
+                <ul>
+                    <li><a href="index.html" id="home">Página Principal</a></li>
+                    <li><a href="historia.html" id="historia">Historia</a></li>
+                    <li><a href="miembros.html" id="miembros">Miembros</a></li>       
+                    <li><a href="canciones.html" id="canciones">Canciones</a></li>
+                </ul>
+            </nav> 
+        </header>  
+        <div class="fondoPagina">
+            <img src="images/gorillaz1.jpg" alt="" id="fondoP"/>
+            <div class="content1">
+                <div>
+                    <h1><strong>Canción más famosa</strong></h1>                                      
+                    <h2>Clint Eastwood</h2>         
+                    <audio controls>
+                        <source src="audios/y2mate.com - Gorillaz  Clint Eastwood Official Video.mp3" type="audio/mpeg">
+                        El buscador no soporta <code>audio</code> tag.
+                    </audio>
+                    <br>
+                    <h2>Video de Clint Eastwood</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1V_xRb0x9aw?si=nDUR3NIDVI3avy1N" 
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                            gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="content2">
+                    <img src="images/logoNombre2.png" alt="" width="400" height="150"/>
+                    <p align="center"><strong>Logo oficial de la banda</strong></p>
+                </div>
+            </div> 
+        </div>
+
     </body>
 </html>
